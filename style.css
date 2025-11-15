@@ -1,0 +1,31 @@
+body{font-family:Georgia, 'Times New Roman', Times, serif;
+padding:30px;}
+
+#container{padding:30px ;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+
+
+width: 550px;}
+
+h1{text-align:center;
+text-decoration: underline;}
+
+#submit{text-align: center;}
+
+input,textarea{margin:5px;
+padding:2px;}
+
+textarea{width: 200px;}
+
+#submit_button{border-color: rgb(5, 4, 4);
+font-size: 15px;
+text-align: center;
+font-family: cursive;}
+
+#submit_button:hover{ 
+border-width: 2px;
+border-radius: 5px;
+background-color: cyan;}
+
