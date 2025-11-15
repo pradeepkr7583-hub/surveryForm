@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>web designing lab 12</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <h1>Student Survey Form</h1>
+            <label for="name">
+                Name : <input type="text" name="name" id="name" required>
+            </label><br>
+            <label for="age">
+                Age : <input type="number" name="age" id="age" required>
+            </label><br>
+            <label for="EMail">
+                EMAIL : <input type="email" name="EMAIL" id="EMail" required>
+            </label><br>
+            Gender : 
+            <label for="male">
+                <input type="radio" name="gender" value="male" id="male"> Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" value="female" id="female"> Female
+            </label>
+            <label for="transgender">
+                <input type="radio" name="gender" value="transgender" id="transgender"> Transgender
+            </label>
+            <h3>Rate your experience</h3>
+            Quality of Teaching <br>
+            <label for="101">
+                <input type="radio" name="quality of teaching" value="poor" id="101"> Poor
+            </label>
+            <label for="102">
+                <input type="radio" name="quality of teaching" value="fair" id="102"> Fair
+            </label>
+            <label for="103">
+                <input type="radio" name="quality of teaching" value="good" id="103"> Good
+            </label>
+            <label for="104">
+                <input type="radio" name="quality of teaching" value="very good" id="104"> Very Good
+            </label>
+            <label for="105">
+                <input type="radio" name="quality of teaching" value="excellent" id="105"> Excellent
+            </label><br><br>
+            Learning Environment<br>
+            <label for="201">
+                <input type="radio" name="Learning Environment" value="poor" id="201"> Poor
+            </label>
+            <label for="202">
+                <input type="radio" name="Learning Environment" value="fair" id="202"> Fair
+            </label>
+            <label for="203">
+                <input type="radio" name="Learning Environment" value="Good" id="203"> Good
+            </label>
+            <label for="204">
+                <input type="radio" name="Learning Environment" value="very Good" id="204"> very Good
+            </label>
+            <label for="205">
+                <input type="radio" name="Learning Environment" value="Excellent" id="205"> Excellent
+            </label><br><br>
+            Course Content <br>
+            <label for="301">
+                <input type="radio" name="Course Content" value="poor" id="301"> Poor
+            </label>
+            <label for="302">
+                <input type="radio" name="Course Content" value="fair" id="302"> Fair
+            </label>
+            <label for="303">
+                <input type="radio" name="Course Content" value="Good" id="303"> Good
+            </label>
+            <label for="304">
+                <input type="radio" name="Course Content" value="very Good" id="304"> very Good
+            </label>
+            <label for="305">
+                <input type="radio" name="Course Content" value="Excellent" id="305"> Excellent
+            </label><br><br>
+            Additional feedback:<br>
+            <textarea name="feedback" placeholder="write your valuable feedback" rows="4" id="feedback"></textarea>
+            <br>
+            Overall Experience: <br>
+            <input type="range" min="0" max="5" name="overall Experience" id="overall Experience">
+            <div id="submit">
+                <input type="submit" value="submit" id="submit_button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
